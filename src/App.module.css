@@ -1,0 +1,33 @@
+.appContainer{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: azure;
+
+    .welcomeText{
+        font-size: 2rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 2rem;
+    }
+
+    .getDirectionsButton{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #0D2C40;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
